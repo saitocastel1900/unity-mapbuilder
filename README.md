@@ -10,25 +10,11 @@ unityで2Dのステージをテキストファイルの情報を基に生成で�
 1. https://github.com/saitocastel1900/unity-mapbuilder/releases/ から最新のPackageをダウンロード  
 2. Unityのアセット=>パッケージをインポート＝＞カスタムパッケージからダウンロードしたCustomPackageを選択
 
-#### CLIから
-1. Node.jsをインストール  
-2. openpumを使えるようにするため以下のコードをcmdで実行
-
-```
-npm install -g openupm-cli
-```
-3. インストールしたいUnityのプロジェクトに移動して、以下をcmdで実行
-```
-openupm add dev.makaroni.unity-mapbuilder
-```
 
 ## 使い方
-1. 
-2. 
-
-```
-
-```
+1. ゲームオブジェクトにMapBuilder.csをアタッチ
+2. 必要な情報を設定して、ゲーム実行
+![スクリーンショット 2022-10-13 033947](https://user-images.githubusercontent.com/96648305/195422358-7fc6a76f-14d8-4e19-9446-d212e67e1348.png)
 
 ## ライセンス
 
